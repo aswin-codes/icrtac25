@@ -8,7 +8,7 @@ function App() {
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<ICRTAC25/>} />
-                <Route path="/24" element={<ICRTAC24/>}/>
+                <Route path="/2024" element={<ICRTAC24/>}/>
             </Routes>
         </BrowserRouter>
     );

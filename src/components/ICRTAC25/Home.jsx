@@ -29,6 +29,7 @@ const Home = () => {
         sr.reveal('.image', { delay: 1400 });
         sr.reveal('.logos-row-1', { delay: 1600 });
         sr.reveal('.logos-row-2', { delay: 1800 });
+        sr.reveal('.hl', { delay: 2000 });
     }, []);
 
     const handleRedirect = (url) => window.open(url)
@@ -81,8 +82,8 @@ const Home = () => {
                 <div className="flex-1 flex-col flex justify-center min-w-full sm:min-w-96 sm:mt-0 mt-5">
                     <div className="flex justify-center mb-4">
                         <a 
-                            href="/24" 
-                            className="text-sm sm:text-base text-purple-600 hover:text-purple-800 transition-colors duration-300 flex items-center gap-2 bg-white/50 backdrop-blur-sm px-4 py-2 rounded-full shadow-sm hover:shadow-md"
+                            href="/2024" 
+                            className="text-sm hl sm:text-base text-purple-600 hover:text-purple-800 transition-colors duration-300 flex items-center gap-2 bg-white/50 backdrop-blur-sm px-4 py-2 rounded-full shadow-sm hover:shadow-md"
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
