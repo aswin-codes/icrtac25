@@ -35,7 +35,7 @@ const ContactUs = () => {
                             </div>
                             <div className='flex items-center gap-2 mb-2'>
                                 <Mail className="size-4 text-purple-600" />
-                                <a href='mailto:tspeadeepkumar@vit.ac.in' className='text-sm hover:underline'>tspeadeepkumar@vit.ac.in</a>
+                                <a href='mailto:tspeadeepkumar@vit.ac.in' className='text-sm hover:underline'>tspradeepkumar@vit.ac.in</a>
                             </div>
                             <div className='flex items-center gap-2'>
                                 <Phone className="size-4 text-purple-600" />

@@ -3,12 +3,13 @@ import ScrollReveal from 'scrollreveal';
 import Cal from '../../assets/calendar.png';
 import Clo from '../../assets/clock.png';
 import VIT from '../../assets/vit.jpg';
-import VITL from '../../assets/VIT15.jpg';
+import VITL from '../../assets/vit.png';
 import UI from '../../assets/ui.png';
 import UPM from '../../assets/upm.png';
 import BIS from '../../assets/bis.png';
 import SERB from '../../assets/serb_logo.png';
 import DST from '../../assets/dst_logo.png'
+import Crystal from "../../assets/crystal_ju.png"
 
 const Home = () => {
     useEffect(() => {
@@ -49,9 +50,10 @@ const Home = () => {
                             <p className='text-xs sm:text-lg font-semibold'>8:00 AM</p>
                         </div>
                     </div>
-                    <div className='flex flex-row justify-center items-center gap-2'>
-                        <img src={SERB} className='h-20 logos'/>
-                        <img src={DST} className='h-20 logos'/>
+                    <div className='flex flex-row justify-center items-center gap-2 mt-4'>
+                        <img src={Crystal} alt='Crystal' className='h-24 logos' />
+                        <img src={SERB} className='h-24 logos'/>
+                        <img src={DST} className='h-24 logos'/>
                     </div>
                     <div className='flex justify-center mb-5 text-purple-800 font-semibold logos'>
                         DST - SERB, New Delhi Sponsored

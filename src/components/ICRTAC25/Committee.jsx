@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import data from "../../data/committee_list.json";
+import data from "../../data/committee_list_2025.json";
 
 const DoubleTickIcon = () => (
     <svg width="25px" height="25px" viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000" strokeWidth="0.00025">

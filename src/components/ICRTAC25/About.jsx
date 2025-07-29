@@ -5,7 +5,7 @@ import UPM from "../../assets/upm.png";
 import UI from "../../assets/ui.png";
 import BIS from "../../assets/bis.png";
 import Springer from "../../assets/springer.png";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/Conference-Logo_2025.png";
 
 const About = () => {
     const handleDownload = () => {
@@ -101,7 +101,7 @@ const About = () => {
                     </div>
                     <div className='p-1 mt-10 tracks-content'>
                         <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Tracks</h1>
-                        <p className='text-base'>The seventh edition of ICRTAC'24 invites submissions of original unpublished technical papers on the following topics, but not limited to:</p>
+                        <p className='text-base'>The seventh edition of ICRTAC'25 invites submissions of original unpublished technical papers on the following topics, but not limited to:</p>
                         <hr className='h-[2px] bg-purple-700' />
                         <p className='font-bold mt-1'>Artificial Intelligence:</p>
                         <ol className='list-decimal list-inside '>

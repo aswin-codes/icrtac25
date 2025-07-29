@@ -19,15 +19,9 @@ const patronsData = [
     { id: 2, name: "Mr. Sankar Viswanathan", title: "Vice-President, VIT", image: I2 },
     { id: 3, name: "Dr. Sekar Viswanathan", title: "Vice-President, VIT", image: I3 },
     { id: 4, name: "Dr. G V Selvam", title: "Vice-President, VIT", image: I4 },
-    { id: 5, name: "Dr. Sandhya Pentareddy", title: "Executive Director, VIT", image: I5 },
-    { id: 6, name: "Ms. Kadhambari S. Viswanathan", title: "Assistant Vice President, VIT", image: I6 },
     { id: 7, name: "Dr. V. S. Kanchana Bhaaskaran", title: "Vice-Chancellor, VIT", image: I7 },
     { id: 8, name: "Dr. Thyagarajan T", title: "Pro-Vice Chancellor, VIT", image: I8 },
-    { id: 9, name: "Dr. P.K.Manoharan", title: "Additional Registrar, VIT", image: I9 },
-    { id: 10, name: "Dr. S.P. Thyagarajan", title: "Distinguished Professor & Advisor to Chancellor, VIT", image: I10 },
-    // { id: 11, name: "Dr. Vaidehi Vijayakumar", title: "Professor of Eminence, VIT", image: I11 },
-    // { id: 12, name: "Dr. Kalyani A", title: "Advisor, VIT", image: I12 },
-    // { id: 13, name: "Mr. Natesan Subramanian", title: "Advisor, VIT", image: I13 },
+    { id: 9, name: "Dr. P.K.Manoharan", title: "Additional Registrar, VIT", image: I9 }
 ];
 
 const Patrons = () => {
