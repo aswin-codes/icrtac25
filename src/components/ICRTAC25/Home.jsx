@@ -7,8 +7,6 @@ import VITL from '../../assets/vit.png';
 import UI from '../../assets/ui.png';
 import UPM from '../../assets/upm.png';
 import BIS from '../../assets/bis.png';
-import SERB from '../../assets/serb_logo.png';
-import DST from '../../assets/dst_logo.png'
 import Crystal from "../../assets/crystal_ju.png"
 
 const Home = () => {
@@ -51,12 +49,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className='flex flex-row justify-center items-center gap-2 mt-4'>
-                        <img src={Crystal} alt='Crystal' className='h-24 logos' />
-                        <img src={SERB} className='h-24 logos'/>
-                        <img src={DST} className='h-24 logos'/>
-                    </div>
-                    <div className='flex justify-center mb-5 text-purple-800 font-semibold logos'>
-                        DST - SERB, New Delhi Sponsored
+                        <img src={Crystal} alt='Crystal' className='h-28 logos' />
                     </div>
                     <div className='mt-2 mx-auto sm:px-4 title'>
                         <p className='text-lg sm:text-2xl text-center text-purple-800 font-semibold'>
