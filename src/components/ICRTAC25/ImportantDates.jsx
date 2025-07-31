@@ -24,7 +24,7 @@ const ImportantDates = () => {
                             <tr className='border-y-8 border-transparent'>
                                 <td className='w-56 text-right font-bold whitespace-nowrap'>
                                     <p className='mr-2 sm:mr-10'>
-                                        9<sup>st</sup> September 2025
+                                        9<sup>th</sup> September 2025
                                     </p>
                                 </td>
                                 <td className='w-8'>
@@ -73,7 +73,7 @@ const ImportantDates = () => {
                             </tr>
                             <tr className='border-y-8 border-transparent'>
                                 <td className='w-56 text-right font-bold whitespace-nowrap'>
-                                    <p className='mr-2 sm:mr-10'>14<sup>th</sup> & 15<sup>th</sup> November 2025 <span className='text-gray-500'>(Tentative)</span></p>
+                                    <p className='mr-2 sm:mr-10'>14<sup>th</sup> & 15<sup>th</sup> November 2025 <br/> <span className='text-gray-500'>(Tentative)</span></p>
                                 </td>
                                 <td className='w-8'>
                                     <div className="w-4 h-4 rounded-full bg-purple-600 mx-auto"></div>

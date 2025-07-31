@@ -23,47 +23,82 @@ const RegistrationFeeTable = () => {
                 <h2 className="reveal text-3xl font-bold text-center text-purple-800 mb-8">Registration Fee</h2>
                 <div className="overflow-x-auto sm:max-w-2xl mx-auto">
                     <table className="reveal text-start min-w-full sm:min-w-auto bg-white border border-gray-200">
-                        <thead className=''>
+                        <thead>
                             <tr className="bg-gray-200">
                                 <th className="px-4 py-2 border text-center" colSpan="3">REGISTRATION FEE (inclusive of 18% GST)</th>
                             </tr>
                             <tr className="bg-gray-200">
                                 <th className="px-4 py-2 border">Category</th>
-                                <th className="px-4 py-2 border">Indian Nationals(Rs)</th>
-                                <th className="px-4 py-2 border">Foreign Nationals(USD)</th>
+                                <th className="px-4 py-2 border">Early Bird Registration</th>
+                                <th className="px-4 py-2 border">Late Registration</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td className="px-4 py-2 border">Research Scholars / Students</td>
-                                <td className="px-4 py-2 border">Rs.4500+18% GST(Rs.5310)</td>
-                                <td className="px-4 py-2 border">$70+ 18% GST($83)</td>
+                                <td className="px-4 py-2 border">
+                                    Rs.5000<br/>
+                                    <span className="text-xs text-gray-600">+18% GST</span><br/>
+                                    <span className="font-bold">Rs.5900</span>
+                                </td>
+                                <td className="px-4 py-2 border">
+                                    Rs.6000<br/>
+                                    <span className="text-xs text-gray-600">+18% GST</span><br/>
+                                    <span className="font-bold">Rs.7080</span>
+                                </td>
                             </tr>
                             <tr className="bg-gray-50">
                                 <td className="px-4 py-2 border">Academician</td>
-                                <td className="px-4 py-2 border">Rs.7000+18% GST(Rs.8260)</td>
-                                <td className="px-4 py-2 border">$150+ 18% GST($177)</td>
+                                <td className="px-4 py-2 border">
+                                    Rs.8000<br/>
+                                    <span className="text-xs text-gray-600">+18% GST</span><br/>
+                                    <span className="font-bold">Rs.9440</span>
+                                </td>
+                                <td className="px-4 py-2 border">
+                                    Rs.10000<br/>
+                                    <span className="text-xs text-gray-600">+18% GST</span><br/>
+                                    <span className="font-bold">Rs.11800</span>
+                                </td>
                             </tr>
                             <tr>
                                 <td className="px-4 py-2 border">Industry Delegates</td>
-                                <td className="px-4 py-2 border">Rs.10000+18% GST(Rs.11800)</td>
-                                <td className="px-4 py-2 border">$200+ 18% GST($236)</td>
-                            </tr>
-                            {/* <tr className="bg-gray-50">
-                                <td className="px-4 py-2 border">Participants</td>
-                                <td className="px-4 py-2 border">Rs. 1,500</td>
-                                <td className="px-4 py-2 border">Rs. 1,500</td>
-                            </tr>
-                            <tr>
-                                <td className="px-4 py-2 border">Additional Conferences kit and Proceedings</td>
-                                <td className="px-4 py-2 border">Rs. 2,000</td>
-                                <td className="px-4 py-2 border">Rs. 2,000 </td>
+                                <td className="px-4 py-2 border">
+                                    Rs.12000<br/>
+                                    <span className="text-xs text-gray-600">+18% GST</span><br/>
+                                    <span className="font-bold">Rs.14160</span>
+                                </td>
+                                <td className="px-4 py-2 border">
+                                    Rs.15000<br/>
+                                    <span className="text-xs text-gray-600">+18% GST</span><br/>
+                                    <span className="font-bold">Rs.17700</span>
+                                </td>
                             </tr>
                             <tr className="bg-gray-50">
-                                <td className="px-4 py-2 border">Foreign Authors</td>
-                                <td className="px-4 py-2 border">275 USD</td>
-                                <td className="px-4 py-2 border">250 USD</td>
-                            </tr> */}
+                                <td className="px-4 py-2 border">Foreign Academicians, Research Scholars/Students (Outside India)</td>
+                                <td className="px-4 py-2 border">
+                                    USD 150<br/>
+                                    <span className="text-xs text-gray-600">+18% GST</span><br/>
+                                    <span className="font-bold">$177</span>
+                                </td>
+                                <td className="px-4 py-2 border">
+                                    USD 200<br/>
+                                    <span className="text-xs text-gray-600">+18% GST</span><br/>
+                                    <span className="font-bold">$236</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td className="px-4 py-2 border">UPM Academicians, Students and Research Scholars</td>
+                                <td className="px-4 py-2 border">
+                                    USD 75<br/>
+                                    <span className="text-xs text-gray-600">+18% GST</span><br/>
+                                    <span className="font-bold">$88</span>
+                                </td>
+                                <td className="px-4 py-2 border">
+                                    USD 100<br/>
+                                    <span className="text-xs text-gray-600">+18% GST</span><br/>
+                                    <span className="font-bold">$118</span>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
 

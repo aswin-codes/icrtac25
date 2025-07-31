@@ -1,7 +1,7 @@
 import React from 'react';
 import ICRTAC25 from './pages/Home/page';
 import ICRTAC24 from './pages/ICRTAC24/page';
-import { BrowserRouter, Routes,Route } from 'react-router';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
     return (
