@@ -29,8 +29,8 @@ const RegistrationFeeTable = () => {
                             </tr>
                             <tr className="bg-gray-200">
                                 <th className="px-4 py-2 border">Category</th>
-                                <th className="px-4 py-2 border">Early Bird Registration</th>
-                                <th className="px-4 py-2 border">Late Registration</th>
+                                <th className="px-4 py-2 border">Early Bird Registration <br/> <span className='text-xs'>(20-10-2025)</span></th>
+                                <th className="px-4 py-2 border">Late Registration <br/> <span className='text-xs'>(05-11-2025)</span></th>
                             </tr>
                         </thead>
                         <tbody>

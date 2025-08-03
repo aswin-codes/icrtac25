@@ -10,8 +10,8 @@ import Logo from "../../assets/Conference-Logo_2025.png";
 const About = () => {
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = `./icrtac_brochure.pdf`; // Path to the PDF file
-        link.download = 'icrtac_brochure.pdf'; // Name for the downloaded file
+        link.href = `./icrtac_brochure_2025.pdf`; // Path to the PDF file
+        link.download = 'icrtac_brochure_2025.pdf'; // Name for the downloaded file
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -194,7 +194,7 @@ const About = () => {
                         <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Brochure</h1>
                         <hr className='h-[2px] bg-purple-700' />
                         <div className='flex justify-center'>
-                            <div className='px-10 py-3 text-xl rounded-md my-3 bg-purple-800 border border-purple-800 font-semibold text-white hover:bg-purple-50 hover:text-purple-800 duration-200 transition-all ease-in-out'>(Coming Soon)</div>
+                            <button onClick={() => handleDownload()} className='px-10 py-3 text-xl rounded-md my-3 bg-purple-800 border border-purple-800 font-semibold text-white hover:bg-purple-50 hover:text-purple-800 duration-200 transition-all ease-in-out'>Download Now</button>
                         </div>
                     </div>
                 </div>
