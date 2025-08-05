@@ -111,7 +111,7 @@ const RegistrationFeeTable = () => {
                 </p>
                 <div className="reveal mt-8 text-left sm:max-w-2xl mx-auto  ">
                     <h3 className="text-xl font-bold text-purple-800">Payment Link</h3>
-                    <p className="mt-2">For Payment (After Acceptance of Article): <span   className="transition-all duration-150 ease-in-out hover:text-purple-800 cursor-pointerunderline font-bold">( Coming soon )</span></p>
+                    <p className="mt-2">For Payment (After Acceptance of Article): <a href="https://vitchennaievents.com/conf1/"><span className="transition-all duration-150 ease-in-out hover:text-purple-800 cursor-pointer underline font-bold">Click Here</span></a></p>
                     <p className='text-sm mt-1'><strong>Note : </strong> The participant can pay only after the acceptance of the paper. While paying, choose ICRTAC 2025 in the dropdown menu. Then select your appropriate registration category.</p>
                 </div>
             </div></section>

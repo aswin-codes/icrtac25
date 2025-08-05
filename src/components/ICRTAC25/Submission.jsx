@@ -22,7 +22,8 @@ const Submission = () => {
                         </div>
                         <div class="mt-5 text-xl text-black ">
                             <span class="">For manuscript submission : </span>
-                            <span class="underline transition-all duration-150 ease-in-out hover:text-purple-800 cursor-pointer">( Coming soon )</span>
+                            <a href='https://cmt3.research.microsoft.com/ICRTAC2025/Submission/Index'><span class="underline transition-all duration-150 ease-in-out hover:text-purple-800 cursor-pointer">Click Here</span></a>
+                            
                         </div>
                     </div>
                     <div class="flex flex-col max-md:max-w-full">
