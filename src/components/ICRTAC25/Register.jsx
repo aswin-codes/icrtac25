@@ -29,8 +29,8 @@ const RegistrationFeeTable = () => {
                             </tr>
                             <tr className="bg-gray-200">
                                 <th className="px-4 py-2 border">Category</th>
-                                <th className="px-4 py-2 border">Early Bird Registration <br/> <span className='text-xs'>(20-10-2025)</span></th>
-                                <th className="px-4 py-2 border">Late Registration <br/> <span className='text-xs'>(05-11-2025)</span></th>
+                                <th className="px-4 py-2 border text-sm w-52">Early Bird Registration ends on: 20-10-2025</th>
+                                <th className="px-4 py-2 border text-sm w-52">Late Registration ends on: 05-11-2025</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -112,7 +112,7 @@ const RegistrationFeeTable = () => {
                 <div className="reveal mt-8 text-left sm:max-w-2xl mx-auto  ">
                     <h3 className="text-xl font-bold text-purple-800">Payment Link</h3>
                     <p className="mt-2">For Payment (After Acceptance of Article): <span   className="transition-all duration-150 ease-in-out hover:text-purple-800 cursor-pointerunderline font-bold">( Coming soon )</span></p>
-                    <p className='text-sm mt-1'><strong>Note : </strong> After linking to payment portal, choose ICRTAC 2025 in the dropdown. Then select your appropriate registration category.</p>
+                    <p className='text-sm mt-1'><strong>Note : </strong> The participant can pay only after the acceptance of the paper. While paying, choose ICRTAC 2025 in the dropdown menu. Then select your appropriate registration category.</p>
                 </div>
             </div></section>
     );

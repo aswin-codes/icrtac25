@@ -90,7 +90,7 @@ const Home = () => {
                         <img src={VIT} alt='VIT' className='h-80 w-full object-cover rounded-lg' />
                     </div>
                     <div className='flex justify-around px-10 mt-10 items-center logos-row-1'>
-                        <div onClick={() => handleRedirect('https://chennai.vit.ac.in/')}><img src={VITL} alt='VIT Logo' className='object-contain h-16 sm:h-20' /></div>
+                        <div onClick={() => handleRedirect('https://chennai.vit.ac.in/')}><img src={Crystal} alt='VIT Logo' className='object-contain h-16 sm:h-20' /></div>
                         <div onClick={() => handleRedirect('https://www.upm.edu.my/?L=en')}><img src={UPM} alt='BIS Logo' className='object-contain h-16 sm:h-20' /></div>
                     </div>
                     
