@@ -101,34 +101,73 @@ const About = () => {
                     </div>
                     <div className='p-1 mt-10 tracks-content'>
                         <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Tracks</h1>
-                        <p className='text-base'>The eighth edition of ICRTAC'25 invites submissions of original unpublished technical papers on the following topics, but not limited to:</p>
                         <hr className='h-[2px] bg-purple-700' />
-                        <p className='font-bold mt-1'>Artificial Intelligence:</p>
-                        <ol className='list-decimal list-inside '>
-                            <li>Natural Language Processing & LLM</li>
-                            <li>Generative AI</li>
-                            <li>Creative AI</li>
-                            <li>Machine Learning & Hybrid Systems</li>
-                        </ol>
-                        <p className='font-bold mt-1'>Automation:</p>
-                        <ol className='list-decimal list-inside '>
-                            <li>Robotic Process Automation
+                        <p className='text-base mt-2'>The eighth edition of ICRTAC'25 invites submissions of original unpublished technical papers on the following topics, but not limited to:</p>
+
+
+                        <p className='font-bold mt-3'>Artificial Intelligence for Sustainability</p>
+                        <ul className='list-disc list-inside ml-4'>
+                            <li>Natural Language Processing (NLP) for multilingual education, citizen engagement, and climate communication.</li>
+                            <li>Large Language Models (LLMs) for policymaking, inclusive education systems, and public access to sustainability data.</li>
+                            <li>Generative & Creative AI in:
+                                <ul className='list-disc list-inside ml-6 mt-1'>
+                                    <li>Climate modeling and mitigation planning.</li>
+                                    <li>Environmental storytelling and awareness through digital art.</li>
+                                    <li>Educational content personalization and outreach.</li>
+                                </ul>
                             </li>
-                            <li>Cognitive Automation</li>
-                            <li>Cyber Security Automation</li>
-                            <li>Intelligent Document, Image & Video processing</li>
-                        </ol>
-                        <p className='font-bold mt-1'>Emerging Technologies:</p>
-                        <ol className='list-decimal list-inside '>
-                            <li>Digital Twin Technologies
+                            <li>AI models for smart agriculture, precision irrigation, and crop yield prediction.</li>
+                            <li>ML-driven clean energy forecasting and optimization.</li>
+                            <li>Water quality monitoring and distribution efficiency using hybrid AI systems.</li>
+                        </ul>
+
+                        <p className='font-bold mt-3'>Automation for Smart Governance and Resource Optimization</p>
+                        <ul className='list-disc list-inside ml-4'>
+                            <li>Robotic Process Automation (RPA) for reducing resource waste and increasing operational efficiency in industries and public utilities.</li>
+                            <li>Cognitive Automation for enhancing decision-making in governance, urban planning, and public services.</li>
+                            <li>Cybersecurity Automation to safeguard digital sustainability infrastructure, including renewable energy systems, smart grids, and city-wide IoT networks.</li>
+                            <li>Intelligent Document, Image & Video Processing for:
+                                <ul className='list-disc list-inside ml-6 mt-1'>
+                                    <li>Environmental surveillance and remote sensing.</li>
+                                    <li>Forest and wildlife monitoring through aerial data analysis.</li>
+                                </ul>
                             </li>
-                            <li>Drones and Robotic Technology</li>
-                            <li>Blockchain Technology & Cryptocurrency</li>
-                            <li>5G and 6G Wireless Technology</li>
-                            <li>Augmented Reality and Virtual Reality</li>
-                            <li>Quantum Computing in STEM</li>
-                        </ol>
-                        
+                        </ul>
+
+                        <p className='font-bold mt-3'>Secure and Sustainable Digital Ecosystems</p>
+                        <ul className='list-disc list-inside ml-4'>
+                            <li>Network Security strategies tailored for sustainable urban ecosystems and cyber-resilient energy systems.</li>
+                            <li>Privacy-preserving AI and secure data sharing in collaborative environmental research.</li>
+                            <li>Cybersecurity frameworks for smart devices and infrastructure in sustainable cities.</li>
+                            <li>Green cybersecurity practices minimizing energy use in digital defense systems.</li>
+                        </ul>
+
+                        <p className='font-bold mt-3'>Technologies for Environmental and Educational Impact</p>
+                        <ul className='list-disc list-inside ml-4'>
+                            <li>Digital Twin Technologies for real-time modeling of urban infrastructure, energy distribution, and climate resilience.</li>
+                            <li>Drones and Robotics for sustainable agriculture, forest conservation, and disaster response.</li>
+                            <li>Blockchain & Cryptocurrency for:
+                                <ul className='list-disc list-inside ml-6 mt-1'>
+                                    <li>Transparent green finance and climate funds.</li>
+                                    <li>Ethical and sustainable supply chain traceability.</li>
+                                </ul>
+                            </li>
+                            <li>5G/6G and IoT for smart cities, environmental monitoring, and responsive infrastructure.</li>
+                            <li>Augmented & Virtual Reality (AR/VR) for immersive sustainability education and professional training.</li>
+                            <li>Quantum Computing applications in climate simulation, clean chemistry, and STEM innovation acceleration.</li>
+                        </ul>
+
+                        <p className='font-bold mt-3'>SDG Alignment</p>
+                        <ul className='list-disc list-inside ml-4'>
+                            <li>SDG 4: Quality Education</li>
+                            <li>SDG 7: Affordable and Clean Energy</li>
+                            <li>SDG 9: Industry, Innovation, and Infrastructure</li>
+                            <li>SDG 11: Sustainable Cities and Communities</li>
+                            <li>SDG 12: Responsible Consumption and Production</li>
+                            <li>SDG 13: Climate Action</li>
+                            <li>SDG 17: Partnerships for the Goals</li>
+                        </ul>
+
                     </div>
                     <div className='p-1 publishing-content mt-4'>
                         <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Publishing & Indexing</h1>
@@ -182,7 +221,7 @@ const About = () => {
                             </button>
                             <div
 
-                                
+
                                 className={`font-semibold flex flex-col justify-center items-center text-lg bg-transparent text-purple-800 hover:bg-transparent hover:text-purple-500 border border-purple-800 rounded-md transition-all duration-200 ease-in-out px-4 py-2`}
                             >
                                 ICRTAC'24 <br /> <span className='text-sm'>Seventh edition</span> <span className="text-xs"> (Coming soon) </span>
