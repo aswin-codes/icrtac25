@@ -175,9 +175,6 @@ const About = () => {
                         <p className='mt-3'>
                             <b className='font-bold'>ICRTAC25 is planned to publish the proceedings  with Springer in their Communications in Computer and Information Science series (final approval pending) </b>. All accepted and presented papers will be published by CCIS subject to meeting Springer's scope and quality requirements.<b className='font-bold'> Springer CCIS series is indexed in SCOPUS.</b>
                         </p>
-                        <div className='mt-3 flex lg:flex-row flex-col justify-around items-center my-2 gap-4'>
-                            <img src={Springer} alt='Springer Publications' className='object-contain h-10 sm:h-16' />
-                        </div>
                     </div>
                     <section id="previous" className='p-1 publishing-content mt-4'>
                         <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Previous Proceedings</h1>
