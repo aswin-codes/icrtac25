@@ -25,7 +25,8 @@ const ImportantDates = () => {
                                 <td className='w-56 text-right font-bold whitespace-nowrap'>
                                     <p className='mr-2 sm:mr-10'>
                                         <span className='text-red-500 line-through'>9<sup>th</sup> September 2025</span><br />
-                                        16<sup>th</sup> September 2025 <br/> (Extended)
+                                        <span className='text-red-500 line-through'>16<sup>th</sup> September 2025</span><br />
+                                        23<sup>rd</sup> September 2025 (Extended)
                                     </p>
                                 </td>
                                 <td className='w-8'>

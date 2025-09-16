@@ -51,7 +51,7 @@ const About = () => {
                 <div className='flex flex-col lg:flex-row gap-5  about-vit-content'>
                     <div className='p-1 basis-2/3'>
                         <p className='mt-3'>
-                            VIT Chennai is a globally engaged, competitive research enriched campus, strategically located in a city that is one of the biggest automotive and IT hubs in Tamil Nadu. Its motto is to respond by rearing students to major industrial, social, economic, and environmental demands and challenges of cosmopolitan cities in India and the world in general. This eight-year-old campus offers undergraduate, postgraduate, and research programmes and draws smart students from every state in India through a highly competitive examination. <span className='font-bold cursor-pointer' onClick={() => handleRedirect('https://chennai.vit.ac.in/')}>Read more...</span>
+                            VIT Chennai is a globally engaged, competitive research enriched campus, strategically located in a city that is one of the biggest automotive and IT hubs in Tamil Nadu. Its motto is to respond by rearing students to major industrial, social, economic, and environmental demands and challenges of cosmopolitan cities in India and the world in general. This fifteen-years-old campus offers undergraduate, postgraduate, and research programmes and draws smart students from every state in India through a highly competitive examination. <span className='font-bold cursor-pointer' onClick={() => handleRedirect('https://chennai.vit.ac.in/')}>Read more...</span>
                         </p>
                     </div>
                     <div className='basis-1/3 flex items-center justify-center'>
