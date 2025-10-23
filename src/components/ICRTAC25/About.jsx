@@ -170,11 +170,10 @@ const About = () => {
 
                     </div>
                     <div className='p-1 publishing-content mt-4'>
-                        <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Publishing & Indexing</h1>
+                        <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Publishing</h1>
                         <hr className='h-[2px] bg-purple-700' />
                         <p className='mt-3'>
-                            <b className='font-bold'>ICRTAC25 is planned to publish the proceedings  with Springer in their Communications in Computer and Information Science series (final approval pending) </b>. All accepted and presented papers will be published by CCIS subject to meeting Springer's scope and quality requirements.<b className='font-bold'> Springer CCIS series is indexed in SCOPUS.</b>
-                        </p>
+                             ICRTAC 25 is planned to publish the Conference Proceedings with ISBN Number                        </p>
                     </div>
                     <section id="previous" className='p-1 publishing-content mt-4'>
                         <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Previous Proceedings</h1>

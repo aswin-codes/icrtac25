@@ -32,12 +32,9 @@ const Submission = () => {
                         </div>
                         <div class="mt-5 text-xl text-black  max-md:max-w-full">
                             <span class="">To download manuscript word template : </span>
-                            <a href='https://www.springer.com/gp/authors-editors/conference-proceedings/editors/word-template/19338734'><span class="underline transition-all duration-150 ease-in-out hover:text-purple-800">Click Here</span></a>
+                            <a href='https://drive.google.com/file/d/1huhLokKm_Q-lkJuFnxPgpsmbiK9O-DxR/view?usp=drive_link'><span class="underline transition-all duration-150 ease-in-out hover:text-purple-800">Click Here</span></a>
                         </div>
-                        <div class="mt-5 text-xl text-black transition-all duration-150 ease-in-out hover:text-purple-800  max-md:max-w-full">
-                            <span class="">To download manuscript Latex template :   </span>
-                            <a href='https://www.springer.com/gp/computer-science/lncs/new-latex-templates-available/15634678'><span class="underline transition-all duration-150 ease-in-out hover:text-purple-800">Click Here</span></a>
-                        </div>
+                       
                     </div>
                 </div>
                 <div
